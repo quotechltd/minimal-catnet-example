@@ -68,11 +68,6 @@ test("Can connect to CatNet, retrieve token, and make call", async () => {
     expect(swissreres.status).toBe(200)
 }, 20_000)
 
-
-async function generateAssertation(header, payload, swissRePrivateKey) {
-    return 
-}
-
 function getCatnetDetails() {
     const pathToKeyfile = path.join(__dirname, "private.key")
     const keystat = fs.statSync(pathToKeyfile)
