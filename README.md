@@ -1,6 +1,6 @@
 # Minimal CatNet Example
 
-This code lifts the relevant parts of the CatNet integration away from risks, for debugging purposes.
+This code lifts the relevant parts of the CatNet integration away from our application code, for debugging purposes.
 
 ## Usage
 
